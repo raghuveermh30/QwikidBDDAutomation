@@ -1,0 +1,248 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17512563500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User present on Login Page",
+            "match": {
+              "location": "LoginStepDefnation.user_present_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30132900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title of Login page is Qwikhome",
+            "match": {
+              "location": "LoginStepDefnation.title_of_Login_page_is_Qwikhome()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Qwikhome Home Page Test scenario",
+        "description": "",
+        "id": "qwikhome-login-feature;qwikhome-home-page-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 314650600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Enters credentials",
+            "match": {
+              "location": "LoginStepDefnation.user_Enters_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51902300,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#Data driven approach - without Examples Keyword"
+              }
+            ],
+            "line": 10,
+            "name": "User accept the consent",
+            "match": {
+              "location": "LoginStepDefnation.user_accept_the_consent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5088667300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginStepDefnation.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53814500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on home page",
+            "match": {
+              "location": "LoginStepDefnation.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17442712800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User present on Login Page",
+            "match": {
+              "location": "LoginStepDefnation.user_present_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5356800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title of Login page is Qwikhome",
+            "match": {
+              "location": "LoginStepDefnation.title_of_Login_page_is_Qwikhome()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "",
+        "description": "Validate the Logout Func On Qwikhome App Dashboard When User Accepts The Alert",
+        "id": "qwikhome-login-feature;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 272640500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Enters credentials",
+            "match": {
+              "location": "LoginStepDefnation.user_Enters_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55832000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User accept the consent",
+            "match": {
+              "location": "LoginStepDefnation.user_accept_the_consent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7121721600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginStepDefnation.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 666900700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on Home Button",
+            "match": {
+              "location": "LoginStepDefnation.user_click_on_Home_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45155600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Logout Button",
+            "match": {
+              "location": "LoginStepDefnation.user_clicks_on_Logout_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1910885300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User accepts the alert",
+            "match": {
+              "location": "LoginStepDefnation.user_accepts_the_alert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44224000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Should redirect to signIn Page",
+            "match": {
+              "location": "LoginStepDefnation.user_Should_redirect_to_signIn_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 726500600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefnation.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "QWikhome Login feature",
+    "description": "",
+    "id": "qwikhome-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Raghuveer.MH/eclipse-workspace/QwikIDAutomation/src/main/java/com/qa/features/Login.Feature"
+  }
+]

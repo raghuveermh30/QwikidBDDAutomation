@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="51.343661">
+<testcase classname="QWikhome Login feature" name="Qwikhome Home Page Test scenario" time="23.051731">
+<system-out><![CDATA[Given User present on Login Page............................................passed
+And Title of Login page is Qwikhome.........................................passed
+And User Enters credentials.................................................passed
+And User accept the consent.................................................passed
+When User clicks on Login button............................................passed
+Then User is on home page...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="QWikhome Login feature" name="" time="28.29193">
+<system-out><![CDATA[Given User present on Login Page............................................passed
+And Title of Login page is Qwikhome.........................................passed
+And User Enters credentials.................................................passed
+And User accept the consent.................................................passed
+And User clicks on Login button.............................................passed
+And User click on Home Button...............................................passed
+And User clicks on Logout Button............................................passed
+When User accepts the alert.................................................passed
+Then User Should redirect to signIn Page....................................passed
+And close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
